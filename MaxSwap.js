@@ -26,11 +26,7 @@ function MaxSwap(number)
     }
     let newNumber = num.join("")
     console.log(newNumber);
-    let minus = newNumber - originalNumber;
-    if(minus > diff)
-    {
-        diff = minus
-    }
+    //
     
 }
 
