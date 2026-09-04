@@ -28,7 +28,6 @@ function containerWithMostWater(arr)
     const width = right - left;
     const height = Math.min(arr[left], arr[right]);
     maxArea = Math.max(maxiumArea, width * height);
-    console.log(maximumArea);
     
     if (arr[left] < arr[right])
     {

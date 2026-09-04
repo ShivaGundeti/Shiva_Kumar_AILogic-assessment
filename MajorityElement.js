@@ -17,8 +17,6 @@ function MajorityElement(arr)
     }
     let max = 0
     let maxKey;
-    console.log(hash);
-    
     for(let key in hash)
     {
         if(hash[key] > max)
