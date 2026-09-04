@@ -44,3 +44,6 @@ function containerWithMostWater(arr)
 }
 
 console.log(containerWithMostWater([1, 8, 6, 2, 5, 4, 8, 3, 7]));
+
+// Here iam using two pointers,one pointer at starting and one at end. iam calculating min area using this poinnters
+// The time complexity is o(n)
